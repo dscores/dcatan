@@ -1,0 +1,49 @@
+classic
+
+* bauen
+  * straßen, siedlungen, städte müssen immer an eine bereits gebaute straße angrenzen
+  * siedlungen, städte und ritter müssen nach ihrer reihenfolge gebaut werden
+* ritter
+  * kann einmalig eingesetzt werden
+* fehlwürfe
+  * nicht begrenzt
+  * je -2 punkte
+* spielende: es werden 15 runden gespielt
+* punkte
+  * straßen geben jeweils 1 punkt
+  * siedlungen, städte und ritter geben ansteigende punkte
+
+
+plus
+
+* bauen
+  * siedlungen, städte und ritter können in beliebiger reihenfolge gebaut werden
+* ritter
+  * kann einmalig eingesetzt werden
+  * doppelritter müssen beide gebaut sein bevor sie einsetzbar sind
+* spielende: es wird bis 10 siegpunkte gespielt
+* punkte
+  * einzelne straßen und ritter geben keine punkte
+    * ab 3 ritter kann man größte rittermacht anhaken: 2 punkte
+    * ab 5 straßen kann man größte handelsstraße anhaken: 2 punkte
+  * siedlungen geben jeweils 1 punkt
+  * städte geben jeweils 2 punkte
+
+
+board (classic)
+  * next round (bis 15, gesammelte punkte einer runde werden zusammengezählt)
+  * ansicht der punkte der jeweiligen runde und die gesamtpunkte
+  * fehlwürfe
+board (plus)
+  * ansicht gesamtpunkte
+  * größte rittermacht und längste handelsstraße kann an/-abgehakt werden
+  * bis 10 siegpunkte
+
+object
+  type (straße, siedlung, stadt, ritter, rohstoffjoker)
+  marked
+  points
+  links
+    * beliebig viele verlinkte straßen, mindestens eine muss gebaut sein bevor es markiert werden darf
+    * andere types können auch verlinkt werden und müssen alle erfüllt sein bevor es markiert werden darf
+    * rohstoffjoker haben keine straßen verlinkt, aber mindestens ein ritter
