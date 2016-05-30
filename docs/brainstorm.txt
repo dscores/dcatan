@@ -36,7 +36,7 @@ board (classic)
   * fehlwürfe
 board (plus)
   * ansicht gesamtpunkte
-  * größte rittermacht und längste handelsstraße kann an/-abgehakt werden
+  * größte rittermacht (ab 3 ritter) und längste handelsstraße (ab 5 straßen) kann an/-abgehakt werden
   * bis 10 siegpunkte
 
 object
@@ -46,4 +46,4 @@ object
   links
     * beliebig viele verlinkte straßen, mindestens eine muss gebaut sein bevor es markiert werden darf
     * andere types können auch verlinkt werden und müssen alle erfüllt sein bevor es markiert werden darf
-    * rohstoffjoker haben keine straßen verlinkt, aber mindestens ein ritter
+      (rohstoffjoker haben keine straßen verlinkt, aber mindestens ein ritter)
